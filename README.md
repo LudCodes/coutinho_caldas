@@ -25,9 +25,13 @@ JavaScript
 
 ### Estrutura
 /project
+
   ├── index.html
+  
   ├── /css
+  
   ├── /js
+  
   └── /assets
   
 ### Publicação
