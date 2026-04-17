@@ -1,14 +1,7 @@
-/* =============================================================
-   main.js — Coutinho Caldas
-   Módulos: Header, Mobile Menu, Carrossel, Reveal, Scroll, Galeria
-   ============================================================= */
-
 (function () {
   'use strict';
 
-  /* =============================================================
-     HEADER — efeito de scroll
-     ============================================================= */
+  /*HEADER — efeito de scroll */
 
   const header = document.getElementById('header');
 
@@ -19,9 +12,7 @@
   window.addEventListener('scroll', handleHeaderScroll, { passive: true });
 
 
-  /* =============================================================
-     MENU MOBILE
-     ============================================================= */
+  /*MENU MOBILE */
 
   const hamburger  = document.getElementById('hamburger');
   const mobileMenu = document.getElementById('mobileMenu');
@@ -56,9 +47,7 @@
   });
 
 
-  /* =============================================================
-     CARROSSEL DE DEPOIMENTOS
-     ============================================================= */
+  /* CARROSSEL DE DEPOIMENTOS */
 
   const track   = document.getElementById('testimonialsTrack');
   const prevBtn = document.getElementById('prevBtn');
@@ -121,9 +110,7 @@
   startAutoPlay();
 
 
-  /* =============================================================
-     SCROLL REVEAL
-     ============================================================= */
+  /*SCROLL REVEAL */
 
   const revealElements = document.querySelectorAll('.reveal');
 
@@ -139,9 +126,7 @@
   revealElements.forEach((el) => revealObserver.observe(el));
 
 
-  /* =============================================================
-     SMOOTH SCROLL — links âncora
-     ============================================================= */
+  /*SMOOTH SCROLL — links âncora */
 
   document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     anchor.addEventListener('click', function (e) {
@@ -157,9 +142,7 @@
   });
 
 
-/* =============================================================
-   LIGHTBOX
-   ============================================================= */
+/*LIGHTBOX */
 
 const lightbox      = document.getElementById('lightbox');
 const lightboxImg   = document.getElementById('lightboxImg');
