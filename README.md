@@ -27,11 +27,8 @@ JavaScript
 /project
 
   ├── index.html
-  
   ├── /css
-  
   ├── /js
-  
   └── /assets
   
 ### Publicação
