@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Coutinho Caldas oferece acomodações confortáveis e seguras para locação por temporada em Caldas Novas, Goiás. Descubra nossos apartamentos e casas para suas férias perfeitas!" />
+  <title>Coutinho Caldas – Locação por Temporada em Caldas Novas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ==================== HEADER ==================== -->
+  <header id="header" class="header">
+    <div class="container header__inner">
+
+      <a href="#" class="header__logo" aria-label="Coutinho Caldas - Página Inicial">
+        <img src="assets/images/logomarca.png" alt="Logo Coutinho Caldas" width="100" />
+      </a>
+
+      <nav class="header__nav" aria-label="Navegação principal">
+        <ul class="nav__links" id="navLinks">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#acomodacoes">Acomodações</a></li>
+          <li><a href="#galeria">Galeria</a></li>
+          <li><a href="#contato">Contato</a></li>
+          <li>
+            <a href="https://wa.me/5561999810257" target="_blank" rel="noopener noreferrer" class="btn btn--primary nav__cta">
+              Reservar Agora
+            </a>
+          </li>
+        </ul>
+
+        <button class="nav__hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <nav class="mobile-menu" id="mobileMenu" aria-label="Menu mobile" aria-hidden="true">
+    <a href="#inicio" onclick="closeMobileMenu()">Início</a>
+    <a href="#sobre" onclick="closeMobileMenu()">Sobre</a>
+    <a href="#acomodacoes" onclick="closeMobileMenu()">Acomodações</a>
+    <a href="#galeria" onclick="closeMobileMenu()">Galeria</a>
+    <a href="#contato" onclick="closeMobileMenu()">Contato</a>
+    <a href="https://wa.me/5561999810257" target="_blank" rel="noopener noreferrer" class="btn btn--primary">Reservar Agora</a>
+  </nav>
+
+
+  <!-- ==================== HERO ==================== -->
+  <section id="inicio" class="hero" aria-label="Seção principal">
+    <div class="hero__overlay" aria-hidden="true"></div>
+    <div class="container">
+      <div class="hero__content">
+
+        <div class="hero__badge">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+          </svg>
+          Caldas Novas, Goiás
+        </div>
+
+        <h1>Conforto, água quente e diversão em um só lugar!</h1>
+        <p>Apartamentos completos, piscinas termais e acesso ao Acqua Park para você aproveitar sem preocupação com quem você ama.</p>
+
+        <a href="https://wa.me/5561999810257" target="_blank" rel="noopener noreferrer" class="btn btn--primary btn--lg">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+            <path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.558 4.122 1.532 5.857L0 24l6.335-1.652A11.944 11.944 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.8 9.8 0 01-5.014-1.378l-.36-.214-3.729.977.994-3.628-.235-.373A9.787 9.787 0 012.182 12C2.182 6.579 6.579 2.182 12 2.182S21.818 6.579 21.818 12 17.421 21.818 12 21.818z"/>
+          </svg>
+          Reservar Agora
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Wave: Hero → Sobre -->
+  <div class="wave wave--hero-sobre" aria-hidden="true">
+    <svg viewBox="0 0 1440 70" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path class="wave__path wave__path--1" d="M-40,0 C160,52 360,8 560,40 C760,68 960,12 1160,42 C1320,64 1480,18 1480,0 L1480,70 L-40,70 Z" fill="#ffffff" opacity="0.4"/>
+      <path class="wave__path wave__path--2" d="M-40,0 C200,42 440,10 680,36 C920,62 1160,18 1400,40 C1440,43 1480,22 1480,0 L1480,70 L-40,70 Z" fill="#ffffff" opacity="0.5"/>
+      <path class="wave__path wave__path--3" d="M-40,0 C260,38 540,65 820,36 C1100,10 1320,50 1480,0 L1480,70 L-40,70 Z" fill="#D1F2FF"/>
+    </svg>
+  </div>
+
+
+  <!-- ==================== SOBRE ==================== -->
+  <section id="sobre" class="sobre">
+    <div class="container">
+
+      <span class="section__label">Sobre Nós</span>
+      <h2 class="section__title">Por que hospedar-se com a<br><span>Coutinho Caldas?</span></h2>
+
+      <div class="sobre__grid">
+
+        <div class="sobre__text reveal">
+          <p>A Coutinho Caldas nasceu da paixão por proporcionar experiências memoráveis para famílias e grupos de amigos que buscam o melhor de Caldas Novas.</p>
+          <p>Com anos de experiência no mercado de locação por temporada, selecionamos cuidadosamente cada imóvel para garantir conforto, segurança e a melhor localização para nossos hóspedes.</p>
+          <p>Nossa missão é simples: fazer você se sentir em casa enquanto aproveita tudo que as águas termais mais famosas do Brasil têm a oferecer.</p>
+
+          <div class="sobre__stats">
+            <div class="stat-card reveal reveal--delay-1">
+              <span class="stat-card__number">+5.000</span>
+              <span class="stat-card__label">Hóspedes Atendidos</span>
+            </div>
+            <div class="stat-card stat-card--green reveal reveal--delay-2">
+              <span class="stat-card__number">10+</span>
+              <span class="stat-card__label">Anos de Experiência</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="sobre__image reveal reveal--delay-2">
+          <div class="sobre__image-frame">
+            <img src="assets/images/image3.jpg" alt="Estrutura da Coutinho Caldas" />
+          </div>
+          <div class="sobre__image-decoration" aria-hidden="true"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Wave estática -->
+  <div class="wave wave--static wave--blue" aria-hidden="true">
+    <svg viewBox="0 0 1440 54" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,28 C120,48 240,10 360,26 C480,42 600,14 720,28 C840,42 960,12 1080,26 C1200,40 1320,16 1440,28 L1440,54 L0,54 Z" fill="#D1F2FF"/>
+    </svg>
+  </div>
+
+
+  <!-- ==================== ACOMODAÇÕES ==================== -->
+  <section id="acomodacoes" class="acomodacoes">
+    <div class="container">
+
+      <span class="section__label section__label--center">Nossas Acomodações</span>
+      <h2 class="section__title section__title--center">Acomodações selecionadas para você!</h2>
+      <p class="section__subtitle">Cada imóvel é cuidadosamente escolhido para garantir sua melhor experiência em Caldas Novas.</p>
+
+      <div class="acomodacoes__grid">
+
+        <!-- Card: Apartamento -->
+        <article class="acom-card reveal">
+          <div class="acom-card__image">
+            <img src="assets/images/apto.png" alt="Apartamento Conforto" />
+            <span class="acom-card__badge">Mais Procurado</span>
+          </div>
+          <div class="acom-card__body">
+            <h3 class="acom-card__title">Apartamento Conforto</h3>
+            <p class="acom-card__subtitle">Aconchego e praticidade para sua estadia</p>
+
+            <ul class="acom-card__specs" aria-label="Especificações">
+              <li class="spec-item">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
+                1 quarto
+              </li>
+              <li class="spec-item">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16v7H4zM4 11v9M20 11v9M8 20h8"/></svg>
+                1–2 banheiros
+              </li>
+              <li class="spec-item">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>
+                1 vaga
+              </li>
+            </ul>
+
+            <ul class="acom-card__features" aria-label="Comodidades">
+              <li><span class="check-icon" aria-hidden="true">✓</span> Até 5 pessoas</li>
+              <li><span class="check-icon" aria-hidden="true">✓</span> Cozinha completa</li>
+              <li><span class="check-icon" aria-hidden="true">✓</span> Ar condicionado</li>
+              <li><span class="check-icon" aria-hidden="true">✓</span> TV Smart</li>
+              <li><span class="check-icon" aria-hidden="true">✓</span> Guarda-roupa</li>
+            </ul>
+
+            <a href="https://wa.me/5561999810257" target="_blank" rel="noopener noreferrer" class="btn btn--primary btn--full">
+              Verificar disponibilidade
+            </a>
+          </div>
+        </article>
+
+        <!-- Card: Casa -->
+        <article class="acom-card reveal reveal--delay-2">
+          <div class="acom-card__image">
+            <img src="assets/images/casa.png" alt="Casa Família" />
+            <span class="acom-card__badge">Família Grande</span>
+          </div>
+          <div class="acom-card__body">
+            <h3 class="acom-card__title">Casa Família</h3>
+            <p class="acom-card__subtitle">Mais espaço para aproveitar com quem você ama</p>
+
+            <ul class="acom-card__specs" aria-label="Especificações">
+              <li class="spec-item">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
+                2 quartos
+              </li>
+              <li class="spec-item">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16v7H4zM4 11v9M20 11v9M8 20h8"/></svg>
+                2 banheiros
+              </li>
+              <li class="spec-item">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>
+                2 vagas
+              </li>
+            </ul>
+
+            <ul class="acom-card__features" aria-label="Comodidades">
+              <li><span class="check-icon" aria-hidden="true">✓</span> Até 10 pessoas</li>
+              <li><span class="check-icon" aria-hidden="true">✓</span> Cozinha completa</li>
+              <li><span class="check-icon" aria-hidden="true">✓</span> Ar condicionado</li>
+              <li><span class="check-icon" aria-hidden="true">✓</span> TV Smart</li>
+              <li><span class="check-icon" aria-hidden="true">✓</span> Guarda-roupa</li>
+            </ul>
+
+            <a href="https://wa.me/5561999810257" target="_blank" rel="noopener noreferrer" class="btn btn--primary btn--full">
+              Verificar disponibilidade
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Wave estática -->
+  <div class="wave wave--static wave--blue" aria-hidden="true">
+    <svg viewBox="0 0 1440 54" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,28 C120,48 240,10 360,26 C480,42 600,14 720,28 C840,42 960,12 1080,26 C1200,40 1320,16 1440,28 L1440,54 L0,54 Z" fill="#D1F2FF"/>
+    </svg>
+  </div>
+
+
+  <!-- ==================== EXPERIÊNCIA ==================== -->
+  <section id="experiencia" class="experiencia">
+    <div class="experiencia__inner">
+
+      <div class="experiencia__image">
+        <img src="assets/images/image17.jpeg" alt="Caldas Novas - paisagem termal" />
+      </div>
+
+      <div class="experiencia__content">
+        <span class="section__label">A EXPERIÊNCIA</span>
+        <h2>Descubra Caldas Novas</h2>
+        <p>Caldas Novas é o destino perfeito para quem busca relaxamento e diversão. Com águas termais que brotam naturalmente do solo, a cidade convida você a viver momentos inesquecíveis com quem você ama.</p>
+
+        <div class="experiencia__item">
+          <i class="fa-solid fa-droplet" aria-hidden="true"></i>
+          <div>
+            <h4>Águas Termais Naturais</h4>
+            <p>Banhos terapêuticos em piscinas aquecidas...</p>
+          </div>
+        </div>
+
+        <div class="experiencia__item">
+          <i class="fa-solid fa-gear" aria-hidden="true"></i>
+          <div>
+            <h4>Parques Aquáticos</h4>
+            <p>Diversão garantida para toda a família...</p>
+          </div>
+        </div>
+
+        <div class="experiencia__item">
+          <i class="fa-solid fa-tree" aria-hidden="true"></i>
+          <div>
+            <h4>Lazer e Natureza</h4>
+            <p>Trilhas, cachoeiras e paisagens incríveis...</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Wave estática -->
+  <div class="wave wave--static wave--blue" aria-hidden="true">
+    <svg viewBox="0 0 1440 54" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,28 C120,48 240,10 360,26 C480,42 600,14 720,28 C840,42 960,12 1080,26 C1200,40 1320,16 1440,28 L1440,54 L0,54 Z" fill="#D1F2FF"/>
+    </svg>
+  </div>
+
+
+  <!-- ==================== GALERIA ==================== -->
+  <section id="galeria" class="galeria">
+    <div class="container">
+
+      <span class="section__label section__label--center">GALERIA</span>
+      <h2 class="section__title section__title--center">Conheça nossos espaços</h2>
+      <p class="section__subtitle">Explore cada detalhe das nossas acomodações e descubra o conforto que preparamos para você e sua família.</p>
+
+      <div class="gallery-grid" role="list" aria-label="Galeria de fotos">
+
+        <div class="gallery-item gallery-item--1" role="listitem">
+          <div class="gallery-item__overlay" aria-hidden="true"><span>🔍</span></div>
+        </div>
+        <div class="gallery-item gallery-item--2" role="listitem">
+          <div class="gallery-item__overlay" aria-hidden="true"><span>🔍</span></div>
+        </div>
+        <div class="gallery-item gallery-item--3" role="listitem">
+          <div class="gallery-item__overlay" aria-hidden="true"><span>🔍</span></div>
+        </div>
+        <div class="gallery-item gallery-item--4" role="listitem">
+          <div class="gallery-item__overlay" aria-hidden="true"><span>🔍</span></div>
+        </div>
+        <div class="gallery-item gallery-item--5" role="listitem">
+          <div class="gallery-item__overlay" aria-hidden="true"><span>🔍</span></div>
+        </div>
+        <div class="gallery-item gallery-item--6" role="listitem">
+          <div class="gallery-item__overlay" aria-hidden="true"><span>🔍</span></div>
+        </div>
+        <div class="gallery-item gallery-item--7" role="listitem">
+          <div class="gallery-item__overlay" aria-hidden="true"><span>🔍</span></div>
+        </div>
+        <div class="gallery-item gallery-item--8" role="listitem">
+          <div class="gallery-item__overlay" aria-hidden="true"><span>🔍</span></div>
+        </div>
+        <div class="gallery-item gallery-item--9" role="listitem">
+          <div class="gallery-item__overlay" aria-hidden="true"><span>🔍</span></div>
+        </div>
+        <div class="gallery-item gallery-item--10" role="listitem">
+          <div class="gallery-item__overlay" aria-hidden="true"><span>🔍</span></div>
+        </div>
+        <div class="gallery-item gallery-item--11" role="listitem">
+          <div class="gallery-item__overlay" aria-hidden="true"><span>🔍</span></div>
+        </div>
+        <div class="gallery-item gallery-item--12" role="listitem">
+          <div class="gallery-item__overlay" aria-hidden="true"><span>🔍</span></div>
+        </div>
+        <div class="gallery-item gallery-item--13" role="listitem">
+          <div class="gallery-item__overlay" aria-hidden="true"><span>🔍</span></div>
+        </div>
+        <div class="gallery-item gallery-item--14" role="listitem">
+          <div class="gallery-item__overlay" aria-hidden="true"><span>🔍</span></div>
+        </div>
+        <div class="gallery-item gallery-item--15" role="listitem">
+          <div class="gallery-item__overlay" aria-hidden="true"><span>🔍</span></div>
+        </div>
+        <div class="gallery-item gallery-item--16" role="listitem">
+          <div class="gallery-item__overlay" aria-hidden="true"><span>🔍</span></div>
+        </div>
+        <div class="gallery-item gallery-item--17" role="listitem">
+          <div class="gallery-item__overlay" aria-hidden="true"><span>🔍</span></div>
+        </div>
+        <div class="gallery-item gallery-item--18" role="listitem">
+          <div class="gallery-item__overlay" aria-hidden="true"><span>🔍</span></div>
+        </div>
+        <div class="gallery-item gallery-item--19" role="listitem">
+          <div class="gallery-item__overlay" aria-hidden="true"><span>🔍</span></div>
+        </div>
+        <div class="gallery-item gallery-item--20" role="listitem">
+          <div class="gallery-item__overlay" aria-hidden="true"><span>🔍</span></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Wave estática -->
+  <div class="wave wave--static wave--blue-light" aria-hidden="true">
+    <svg viewBox="0 0 1440 54" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,28 C120,48 240,10 360,26 C480,42 600,14 720,28 C840,42 960,12 1080,26 C1200,40 1320,16 1440,28 L1440,54 L0,54 Z" fill="#E6F7FB"/>
+    </svg>
+  </div>
+
+
+  <!-- ==================== DEPOIMENTOS ==================== -->
+  <section id="depoimentos" class="depoimentos">
+    <div class="container">
+
+      <span class="section__label section__label--center">DEPOIMENTOS</span>
+      <h2 class="section__title section__title--center">O que nossos hóspedes dizem</h2>
+      <p class="section__subtitle">A satisfação dos nossos clientes é nosso maior orgulho. Veja o que eles têm a dizer sobre a experiência conosco.</p>
+
+      <!-- Carrossel -->
+      <div class="testimonials__wrapper" aria-label="Depoimentos de hóspedes">
+        <div class="testimonials__track" id="testimonialsTrack">
+
+          <article class="testimonial-card">
+            <div class="testimonial-card__stars" aria-label="5 estrelas">★★★★★</div>
+            <p class="testimonial-card__text">Gostamos muito da nossa estadia! O apartamento era super confortável, limpinho e a estrutura era muito boa.</p>
+            <div class="testimonial-card__author">
+              <div class="author__avatar">FP</div>
+              <div class="author__info"><strong>Fernanda Paula</strong></div>
+            </div>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="testimonial-card__stars" aria-label="5 estrelas">★★★★★</div>
+            <p class="testimonial-card__text">Estamos muito felizes com a nossa escolha! Gostariamos de agradecer a equipe da Coutinho Caldas, pelo carinho e o excelente atendimento e por proporcionar uma estadia tão agradável e divertida.</p>
+            <div class="testimonial-card__author">
+              <div class="author__avatar">JP</div>
+              <div class="author__info"><strong>João Paulo</strong></div>
+            </div>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="testimonial-card__stars" aria-label="5 estrelas">★★★★★</div>
+            <p class="testimonial-card__text">Diversão total em Caldas Novas! Fim de semana top 👏🏽</p>
+            <div class="testimonial-card__author">
+              <div class="author__avatar">AF</div>
+              <div class="author__info"><strong>Aliria Ferreira</strong></div>
+            </div>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="testimonial-card__stars" aria-label="5 estrelas">★★★★★</div>
+            <p class="testimonial-card__text">Descanso e diversão garantidos! Agradecemos a equipe da Coutinho Caldas pela recepção!</p>
+            <div class="testimonial-card__author">
+              <div class="author__avatar">JG</div>
+              <div class="author__info"><strong>João Gabriel</strong></div>
+            </div>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="testimonial-card__stars" aria-label="5 estrelas">★★★★★</div>
+            <p class="testimonial-card__text">Queremos agradecer por tudo! O apartamento é muito aconchegante! O atendimento é excelente, a equipe é super atenciosa e prestativa. Com certeza voltaremos em breve!</p>
+            <div class="testimonial-card__author">
+              <div class="author__avatar">RM</div>
+              <div class="author__info"><strong>Rosiane Messias</strong></div>
+            </div>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="testimonial-card__stars" aria-label="5 estrelas">★★★★★</div>
+            <p class="testimonial-card__text">Meu pai e a esposa amaram a estadia! O apartamento é super confortável, limpinho e a estrutura era muito boa. Agradecemos a equipe da Coutinho Caldas pelo carinho e o excelente atendimento.</p>
+            <div class="testimonial-card__author">
+              <div class="author__avatar">EA</div>
+              <div class="author__info"><strong>Edjane Alves</strong></div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+      <!-- Controles -->
+      <div class="testimonials__controls">
+        <button class="testimonials__btn" id="prevBtn" aria-label="Depoimento anterior">←</button>
+        <button class="testimonials__btn" id="nextBtn" aria-label="Próximo depoimento">→</button>
+      </div>
+
+      <!-- Stats -->
+      <div class="depoimentos__stats">
+        <div class="depoimentos__stat">
+          <strong>+5.000</strong>
+          <span>Hóspedes atendidos</span>
+        </div>
+        <div class="depoimentos__stat">
+          <strong>10+</strong>
+          <span>Anos de experiência</span>
+        </div>
+        <div class="depoimentos__stat">
+          <strong>98%</strong>
+          <span>Recomendam</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Wave estática -->
+  <div class="wave wave--static wave--cyan" aria-hidden="true">
+  <svg viewBox="0 0 1440 54" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0,28 C120,48 240,10 360,26 C480,42 600,14 720,28 C840,42 960,12 1080,26 C1200,40 1320,16 1440,28 L1440,54 L0,54 Z" fill="#00a8e8"/>
+  </svg>
+</div>
+
+
+  <!-- ==================== CONTATO / CTA ==================== -->
+  <section id="contato" class="contato">
+    <div class="contato__bg" aria-hidden="true"></div>
+    <div class="container contato__inner">
+      <span class="section__label section__label--green">Reserve Agora</span>
+      <h2>O sol de Caldas Novas<br>espera por você!</h2>
+      <p>Garanta o melhor preço reservando diretamente conosco. Atendimento rápido, humano e sem complicação.</p>
+      <a href="https://wa.me/5561999810257" target="_blank" rel="noopener noreferrer" class="btn btn--whatsapp">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+          <path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.558 4.122 1.532 5.857L0 24l6.335-1.652A11.944 11.944 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.8 9.8 0 01-5.014-1.378l-.36-.214-3.729.977.994-3.628-.235-.373A9.787 9.787 0 012.182 12C2.182 6.579 6.579 2.182 12 2.182S21.818 6.579 21.818 12 17.421 21.818 12 21.818z"/>
+        </svg>
+        Falar com consultora no WhatsApp
+      </a>
+    </div>
+  </section>
+
+
+  <!-- ==================== FOOTER ==================== -->
+  <foote class="footer">
+
+    <div class="footer__wave" aria-hidden="true">
+      <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+        <path d="M0,40 C240,80 480,0 720,40 C960,80 1200,0 1440,40 L1440,0 L0,0 Z" fill="#ffffff"/>
+        <path d="M0,60 C240,100 480,20 720,60 C960,100 1200,20 1440,60 L1440,0 L0,0 Z" fill="#cceeff" opacity="0.5"/>
+      </svg>
+    </div>
+
+    <div class="container">
+      <div class="footer__grid">
+
+        <!-- Marca -->
+        <div class="footer__brand">
+          <img class="footer__logo" src="assets/images/Logo-footer.png" alt="Logo Coutinho Caldas" width="100" />
+          <p>Locação de imóveis para temporada em Caldas Novas — GO. Conforto, segurança e o melhor atendimento para suas férias.</p>
+        </div>
+
+        <!-- Links rápidos -->
+        <nav class="footer__col" aria-label="Links rápidos">
+          <h5>Links rápidos</h5>
+          <ul class="footer__links">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#acomodacoes">Acomodações</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+
+        <!-- Contato -->
+        <address class="footer__col footer__contact">
+          <h5>Contato</h5>
+          <ul class="footer__contact-list">
+            <li>
+              <a href="https://www.instagram.com/coutinho_caldas" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-instagram" aria-hidden="true"></i> @coutinho_caldas
+              </a>
+            </li>
+            <li>
+              <a href="https://wa.me/5561999810257" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-whatsapp" aria-hidden="true"></i> (61) 99981-0257
+              </a>
+            </li>
+            <li>
+              <a href="mailto:deboracoutinho_sj@hotmail.com">
+                <i class="fa-solid fa-envelope" aria-hidden="true"></i> deboracoutinho_sj@hotmail.com
+              </a>
+            </li>
+            <li>
+              <span>
+                <i class="fa-solid fa-map-marker-alt" aria-hidden="true"></i>
+                Via de Acesso Marina Mofatto, s/n, Módulo 02, Chácara Roma, Caldas Novas - GO, CEP 75694-025
+              </span>
+            </li>
+          </ul>
+        </address>
+
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p>© Coutinho Caldas. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-modal="true" role="dialog" aria-label="Imagem ampliada">
+  <button class="lightbox__close" id="lightboxClose" aria-label="Fechar">✕</button>
+  <img class="lightbox__img" id="lightboxImg" src="" alt="Imagem ampliada" />
+</div>
+
+  <script src="main.js"></script>
+
+</body>
+</html>
